@@ -26,11 +26,9 @@ const mockImages = mockUrls.map((url, i) => ({
 export default function HomePage() {
   return (
     <main className="p-4">
-      <div className="m-4 flex justify-center text-4xl text-red-500">
-        t3gallery
-      </div>
-      <div className="flex flex-wrap gap-4 p-4">
-        {mockImages.map((image) => (
+    
+      <div className="flex flex-wrap justify-center gap-4 p-4">
+        {[...mockImages, ...mockImages, ...mockImages].map((image) => (
           <div
             key={image.id}
             className="overflow-hidden rounded-lg bg-white shadow-md"
