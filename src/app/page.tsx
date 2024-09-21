@@ -1,11 +1,16 @@
+
+
 import Image from "next/image";
 import Link from "next/link";
 import { db } from "~/server/db";
+
+export const dynamic = "force-dynamic";
 
 // tasks done
 // installed github cli
 // pushed to github
 // deployed to vercel
+
 
 const mockUrls = [
   "https://utfs.io/f/n2H3YqVS6bY5x3ZeXe5mLztBgDrbTNX8qnSKk0aMHjJFlsyi",
@@ -30,6 +35,8 @@ export default async function HomePage() {
   const posts = await db.query.posts.findMany();
   console.log(posts);
 
+
+
   return (
     <main className="p-4">
       {posts.map((post) => (
@@ -38,7 +45,6 @@ export default async function HomePage() {
           {/* <p className="text-gray-500">{post.createdAt}</p> */}
         </div>
       ))}
-
       <h1 className="text-4xl font-bold">Images</h1>
       <div className="flex flex-wrap justify-center gap-4 p-4">
         {[...mockImages, ...mockImages, ...mockImages].map((image, i) => (
