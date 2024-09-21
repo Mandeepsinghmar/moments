@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { db } from "~/server/db";
 
 // tasks done
 // installed github cli
@@ -23,20 +24,34 @@ const mockImages = mockUrls.map((url, i) => ({
   id: i + 1,
 }));
 
-export default function HomePage() {
+
+export default async function HomePage() {
+
+  const posts = await db.query.posts.findMany();
+  console.log(posts);
+
   return (
     <main className="p-4">
-    
+      {posts.map((post) => (
+        <div key={post.id} className="p-4">
+          <h1 className="text-2xl">{post.name}</h1>
+          {/* <p className="text-gray-500">{post.createdAt}</p> */}
+        </div>
+      ))}
+
+      <h1 className="text-4xl font-bold">Images</h1>
       <div className="flex flex-wrap justify-center gap-4 p-4">
-        {[...mockImages, ...mockImages, ...mockImages].map((image) => (
+        {[...mockImages, ...mockImages, ...mockImages].map((image, i) => (
           <div
-            key={image.id}
+            key={image.id + '-' + i}
             className="overflow-hidden rounded-lg bg-white shadow-md"
           >
              <img src={image.url} alt={`Image ${image.id}`} className="w-full h-96 object-cover" />
           </div>
+          
         ))}
       </div>
+
     </main>
   );
 }
