@@ -1,27 +1,10 @@
-
-
-
 import { SignedIn, SignedOut } from "@clerk/nextjs";
-import { db } from "~/server/db";
+import {  getMyImages } from "~/server/queries";
 
 export const dynamic = "force-dynamic";
 
-// tasks done
-// installed github cli
-// pushed to github
-// deployed to vercel
-// made basic ui with mock data
-// set up database 
-// speed up build process
-// attach database to ui 
-// added authentication using clerk 
-//  add new images/using uploadtihing upload to uploadthing and then insert to db
-
 async function Images(){
-
-  const images = await db.query.images.findMany({
-    orderBy: (model, {desc}) => desc(model.id)
-  });
+ const images = await getMyImages();
   return (
  <div className="flex flex-wrap justify-center gap-4 p-4">
         {images.map((image) => (
