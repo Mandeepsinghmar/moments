@@ -1,4 +1,5 @@
 import { SignedIn, SignedOut } from "@clerk/nextjs";
+import Image from "next/image";
 import {  getMyImages } from "~/server/queries";
 
 export const dynamic = "force-dynamic";
@@ -12,7 +13,7 @@ async function Images(){
             key={image.id }
             className="overflow-hidden rounded-lg shadow-md flex flex-col w-48"
           >
-             <img src={image.url} alt={`Image ${image.id}`}  />
+             <Image src={image.url} width={300} height={300} alt={`Image ${image.id}`}  />
               <h2 className="text-xl font-bold p-4">{image.name}</h2>
           </div>
           

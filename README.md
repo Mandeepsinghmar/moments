@@ -13,7 +13,7 @@
 - [x] add new images/using uploadtihing upload to uploadthing and then insert to db
 - [x]'taint' (server-only)
 - [x] Only the user can see the images who uploaded them
-- [] use Next/image component to display images
+- [x] use Next/image component to display images
 - [] error management (w/ sentry)
 - [] Routing/image page (parallel route) 
 - [] delete button for images
