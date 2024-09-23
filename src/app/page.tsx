@@ -15,6 +15,7 @@ export const dynamic = "force-dynamic";
 // speed up build process
 // attach database to ui 
 // added authentication using clerk 
+//  add new images/using uploadtihing upload to uploadthing and then insert to db
 
 async function Images(){
 
@@ -23,9 +24,9 @@ async function Images(){
   });
   return (
  <div className="flex flex-wrap justify-center gap-4 p-4">
-        {[...images, ...images, ...images].map((image, i) => (
+        {images.map((image) => (
           <div
-            key={image.id + '-' + i}
+            key={image.id }
             className="overflow-hidden rounded-lg shadow-md flex flex-col w-48"
           >
              <img src={image.url} alt={`Image ${image.id}`}  />
@@ -46,8 +47,9 @@ export default async function HomePage() {
     <div className='w-full h-full text-2xl text-center'>Please sign in above to see images</div>
    </SignedOut>
    <SignedIn>
-     <Images/>
 
+
+     <Images/>
    </SignedIn>
      
 
