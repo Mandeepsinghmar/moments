@@ -15,13 +15,13 @@ async function Images() {
           className="flex w-48 flex-col overflow-hidden rounded-lg shadow-md"
         >
           <Link href={`/img/${image.id}`}>
-          <Image
-            src={image.url}
-            style={{ objectFit: "contain" }}
-            width={300}
-            height={300}
-            alt={`Image ${image.id}`}
-          />
+            <Image
+              src={image.url}
+              style={{ objectFit: "contain" }}
+              width={300}
+              height={300}
+              alt={`Image ${image.id}`}
+            />
           </Link>
           <h2 className="p-4 text-xl font-bold">{image.name}</h2>
         </div>

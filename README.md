@@ -15,7 +15,7 @@
 - [x] Only the user can see the images who uploaded them
 - [x] use Next/image component to display images
 - [x] error management (w/ sentry)
-- [] Routing/image page (parallel route)
+- [x] Routing/image page (parallel route)
 - [] delete button for images
 - [] analytics (w/ posthog)
 - [] Ratelimiting (upstosh)
