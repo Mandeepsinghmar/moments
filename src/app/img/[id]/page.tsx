@@ -1,8 +1,12 @@
+import FullImageView from "~/components/full-image";
 
-export default function Img({
+export default async function SingleImagePage({
   params: { id: photoId },
 }: {
   params: { id: string };
 }) {
-  return <div>{photoId}</div>
+  const idAsNumber = Number(photoId);
+  if (isNaN(idAsNumber)) throw new Error("Invalid image id");
+
+  return <FullImageView id={idAsNumber} />;
 }
