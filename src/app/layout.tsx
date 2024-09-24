@@ -7,6 +7,7 @@ import "@uploadthing/react/styles.css";
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import { extractRouterConfig } from "uploadthing/server";
 import { ourFileRouter } from "~/app/api/uploadthing/core";
+import { Toaster } from "../components/ui/sonner";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -24,7 +25,7 @@ export default function RootLayout({
         lang="en"
         className={`${GeistSans.variable} flex flex-col gap-4 font-sans`}
       >
-        <body>
+        <body className="dark">
           <NextSSRPlugin
             /**
              * The `extractRouterConfig` will extract **only** the route configs
@@ -40,6 +41,7 @@ export default function RootLayout({
           </div>
           {modal}
           <div id="modal-root" />
+          <Toaster />
         </body>
       </html>
     </ClerkProvider>

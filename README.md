@@ -16,6 +16,8 @@
 - [x] use Next/image component to display images
 - [x] error management (w/ sentry)
 - [x] Routing/image page (parallel route)
+- [x] made custom upload button
+- [x] setup shadui 
 - [] delete button for images
 - [] analytics (w/ posthog)
 - [] Ratelimiting (upstosh)
