@@ -1,22 +1,22 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import { db } from '~/server/db'
-import { useRouter } from 'next/navigation'
+import { useState } from "react";
+import { db } from "~/server/db";
+import { useRouter } from "next/navigation";
 
 export default function CreatePost() {
-  const [name, setName] = useState('')
-  const router = useRouter()
+  const [name, setName] = useState("");
+  const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+    e.preventDefault();
     const post = await db.query.posts.create({
       data: {
         name,
       },
-    })
-    router.push(`/posts/${post.id}`)
-  }
+    });
+    router.push(`/posts/${post.id}`);
+  };
 
   return (
     <div>
@@ -33,5 +33,5 @@ export default function CreatePost() {
         <button type="submit">Submit</button>
       </form>
     </div>
-  )
+  );
 }
