@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-import { Modal } from "./modal";
-import FullImageView from "~/components/full-image";
-=======
 import FullImageView from "~/common/full-image";
 import { Modal } from "./modal";
->>>>>>> master
 
 export default async function PhotoModal({
   params: { id: photoId },
