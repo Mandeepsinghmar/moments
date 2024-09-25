@@ -18,11 +18,6 @@
 - [x] Routing/image page (parallel route)
 - [x] made custom upload button
 - [x] setup shadui 
-<<<<<<< HEAD
-- [] delete button for images
-- [] analytics (w/ posthog)
-=======
 - [x] analytics (w/ posthog)
 - [x] delete button for images
->>>>>>> master
-- [] Ratelimiting (upstosh)
+- [x] Ratelimiting (upstosh)
