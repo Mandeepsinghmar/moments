@@ -1,0 +1,27 @@
+0000000000000000000000000000000000000000 53fdf8373fc2e90496ecd897f73f0ea6e5a22206 Mandeep Singhmar <msingh8328@gmail.com> 1726749549 +0530	commit (initial): first commit
+53fdf8373fc2e90496ecd897f73f0ea6e5a22206 4c86e38992b12d16bea99fe95428f5cb33d3153f Mandeep Singhmar <msingh8328@gmail.com> 1726823308 +0530	commit: deleted default contentj
+4c86e38992b12d16bea99fe95428f5cb33d3153f e14d8674f84e4a1815c89c83b9e2fdaeb335d297 Mandeep Singhmar <msingh8328@gmail.com> 1726825749 +0530	commit: made ui with mock data
+e14d8674f84e4a1815c89c83b9e2fdaeb335d297 ab16f20f5fc6c7384a64ccbf51cab935f53d74ee Mandeep Singhmar <msingh8328@gmail.com> 1726829891 +0530	commit: worked with more pages and nested pages
+ab16f20f5fc6c7384a64ccbf51cab935f53d74ee f5fdb03aae0df4b53964021e666ba85bd8f335f6 Mandeep Singhmar <msingh8328@gmail.com> 1726831116 +0530	commit: speed up build process by ignoring error
+f5fdb03aae0df4b53964021e666ba85bd8f335f6 d1d9bedb229827e947962243b30c063386c78b76 Mandeep Singhmar <msingh8328@gmail.com> 1726916802 +0530	commit: database setup
+d1d9bedb229827e947962243b30c063386c78b76 b391e7b14c38204bddbdf268c90300cc29757d49 Mandeep Singhmar <msingh8328@gmail.com> 1726917912 +0530	commit: force dynamic
+b391e7b14c38204bddbdf268c90300cc29757d49 154f9104eca58b4a4a968d8a6159a45caefd876a Mandeep Singhmar <msingh8328@gmail.com> 1726997452 +0530	commit: attached database to ui
+154f9104eca58b4a4a968d8a6159a45caefd876a a470567f1d713a20f4be093af4137bc8d9b2456a Mandeep Singhmar <msingh8328@gmail.com> 1727000206 +0530	commit: user auth using clerk and added env variable to nextjs also
+a470567f1d713a20f4be093af4137bc8d9b2456a 16ba17bd268862122287f42017bdd0c5ffeb4950 Mandeep Singhmar <msingh8328@gmail.com> 1727002438 +0530	commit: use auth for homepage
+16ba17bd268862122287f42017bdd0c5ffeb4950 d48d010a9b6a836a35c1a118257afb2278a28653 Mandeep Singhmar <msingh8328@gmail.com> 1727060002 +0530	commit: upload images using uploadthing done
+d48d010a9b6a836a35c1a118257afb2278a28653 f571a4fa7d833b14e9a4454ff8e9168b634f10ae Mandeep Singhmar <msingh8328@gmail.com> 1727063057 +0530	commit: user specific images and taint server only
+f571a4fa7d833b14e9a4454ff8e9168b634f10ae 1fcb02d71bf91de9ff4b35c7eb3f0f71bfdae89e Mandeep Singhmar <msingh8328@gmail.com> 1727064193 +0530	commit: image optimization using next/image
+1fcb02d71bf91de9ff4b35c7eb3f0f71bfdae89e 8b1ec5bf50f10beb834382a89343892234a1ed15 Mandeep Singhmar <msingh8328@gmail.com> 1727069679 +0530	commit: temporary turbo down
+8b1ec5bf50f10beb834382a89343892234a1ed15 16a0eb53dd76a220c33948284c17c4fc9d3ec596 Mandeep Singhmar <msingh8328@gmail.com> 1727158577 +0530	commit: error management using sentry
+16a0eb53dd76a220c33948284c17c4fc9d3ec596 e091814bcb7952c783045047c1e285622e68b970 Mandeep Singhmar <msingh8328@gmail.com> 1727162633 +0530	commit: parallel route for image
+e091814bcb7952c783045047c1e285622e68b970 3ce590d4f57ab4ee18b1a872506d615c89b6f29f Mandeep Singhmar <msingh8328@gmail.com> 1727164382 +0530	commit: fix dialogs full screen, made separate page for image view
+3ce590d4f57ab4ee18b1a872506d615c89b6f29f 40669cc801b04b051f563ae205474c0e926cfc6c Mandeep Singhmar <msingh8328@gmail.com> 1727167030 +0530	commit: cleanup on modal
+40669cc801b04b051f563ae205474c0e926cfc6c 9e1fd1d1ee304d08ecb7d150e1745579b13c1e3a Mandeep Singhmar <msingh8328@gmail.com> 1727169420 +0530	commit: final modal and parallel routes
+9e1fd1d1ee304d08ecb7d150e1745579b13c1e3a a1f2266d46dbeb89320a7e81474e4d43deb29a8b Mandeep Singhmar <msingh8328@gmail.com> 1727184400 +0530	commit: custom upload button
+a1f2266d46dbeb89320a7e81474e4d43deb29a8b 863809e1ff018f82e5eb8ed34919e327a1765a14 Mandeep Singhmar <msingh8328@gmail.com> 1727186191 +0530	commit: sonner toast
+863809e1ff018f82e5eb8ed34919e327a1765a14 8858d274683f99c7c071467a66e444393941657a Mandeep Singhmar <msingh8328@gmail.com> 1727186953 +0530	commit: added loading spinner svg
+8858d274683f99c7c071467a66e444393941657a 90c50baed90f28f7f1f7b3d560cf08d7d3627df0 Mandeep Singhmar <msingh8328@gmail.com> 1727254763 +0530	commit: posthog analytics
+90c50baed90f28f7f1f7b3d560cf08d7d3627df0 b55bf3b044a6f15c7f1d3b788bb4e52ff10979bd Mandeep Singhmar <msingh8328@gmail.com> 1727255221 +0530	pull: Merge made by the 'recursive' strategy.
+b55bf3b044a6f15c7f1d3b788bb4e52ff10979bd 8defc520da61c8987b50a0e7e8a5202baf2b1576 Mandeep Singhmar <msingh8328@gmail.com> 1727255744 +0530	commit: added upload event using posthog
+8defc520da61c8987b50a0e7e8a5202baf2b1576 7f890f71c5d0c0046368840c197a899bbe0ad2b3 Mandeep Singhmar <msingh8328@gmail.com> 1727255790 +0530	commit: posthog done
+7f890f71c5d0c0046368840c197a899bbe0ad2b3 1886326838bab7089262c5082a00ebda1ddaa45d Mandeep Singhmar <msingh8328@gmail.com> 1727260119 +0530	commit: delete image

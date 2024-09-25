@@ -15,6 +15,10 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.0.0-beta.46",
+<<<<<<< HEAD
+=======
+    "@radix-ui/react-slot": "^1.1.0",
+>>>>>>> master
     "@radix-ui/react-toast": "^1.2.1",
     "@sentry/nextjs": "^8.30.0",
     "@t3-oss/env-nextjs": "^0.10.1",
@@ -29,6 +33,10 @@
     "next-themes": "^0.3.0",
     "postgres": "^3.4.4",
     "posthog-js": "^1.164.2",
+<<<<<<< HEAD
+=======
+    "posthog-node": "^4.2.0",
+>>>>>>> master
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "server-only": "^0.0.1",
