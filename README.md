@@ -19,5 +19,5 @@
 - [x] made custom upload button
 - [x] setup shadui 
 - [x] analytics (w/ posthog)
-- [] delete button for images
+- [x] delete button for images
 - [] Ratelimiting (upstosh)
