@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import FullImageView from "~/components/full-image";
-=======
 import FullImageView from "~/common/full-image";
->>>>>>> master
 
 export default async function SingleImagePage({
   params: { id: photoId },
